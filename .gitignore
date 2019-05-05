@@ -1,0 +1,15 @@
+
+## Ignore pycharm working directory
+.idea/
+
+## Ignore json files
+*.json
+
+## Ignore testing py files
+*test*.py
+
+## Pyc files
+*.pyc
+
+## Google drive docs
+*.ini
