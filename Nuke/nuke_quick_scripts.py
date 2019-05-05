@@ -1,6 +1,6 @@
 import nuke
 
-m = nuke.menu('Nuke').addMenu('VFX Tools')
+m = nuke.menu('nuke').addMenu('VFX Tools')
 m.addCommand('', '')
 
 
@@ -26,7 +26,7 @@ import glob
 import global_functions as gf
 import config
 
-n = nuke.menu('Nuke').addMenu('VFX Tools')
+n = nuke.menu('nuke').addMenu('VFX Tools')
 n.addCommand('-', '-')
 n.addCommand('Open Node File Path', 'nuke_quick_scripts.open_file_directory()', 'shift+e')
 n.addCommand('-', '-')

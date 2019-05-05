@@ -18,6 +18,7 @@ CMD = '"C:\Program Files\Nuke11.3v2\Nuke11.3.exe" --nukex'
 
 PREF = os.path.join(os.path.dirname(__file__), 'pref.json')
 
+
 class ShotLoader(QDialog):
 
     def __init__(self):
@@ -180,7 +181,7 @@ class ShotLoader(QDialog):
 
 def run():
     """
-    Nuke run...
+    nuke run...
 
     """
 
